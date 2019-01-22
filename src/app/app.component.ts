@@ -18,7 +18,7 @@ export class AppComponent {
         this.getProducts();
     }
     getProducts():void {
-        this.productService.getProducts
+        this.productService.getProducts()
         .subscribe(products => this.gridData = products);
     }
 }

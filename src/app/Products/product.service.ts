@@ -10,7 +10,6 @@ export class ProductService {
   constructor() { }
 
   getProducts(): Observable<Product[]> {
-
     return of(products);
    }
 
